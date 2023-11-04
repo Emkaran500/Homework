@@ -28,16 +28,21 @@ ThreadPool.QueueUserWorkItem(async (obj) =>
             var msg = Encoding.Unicode.GetString(buffer, 0, size);
             if (msg == "Congratulations! You are correct!")
             {
-                Environment.Exit(0);
+                Console.WriteLine($"{msg}");
+                Environment.Exit(-1);
             }
             else
             {
                 attempts--;
-                Console.WriteLine($"Attempts: {attempts}");
+                Console.WriteLine($"\nAttempts: {attempts}");
                 if (attempts <= 0)
                 {
                     Console.WriteLine("Sorry you have failed!");
                     Environment.Exit(-1);
+                }
+                else
+                {
+                    Console.WriteLine($"{msg}");
                 }
             }
         }

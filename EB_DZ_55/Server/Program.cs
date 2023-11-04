@@ -48,20 +48,19 @@ while(true)
                         correctNums.Remove(clientSocket);
                         await socket.SendAsync(responseMessageInBytes);
                         await clientSocket.DisconnectAsync(false);
-                        break;
                     }
                     else
                     {
                         KeyValuePair<Socket, int> correctPair = correctNums.First(predicate: (numPair) => numPair.Key == clientSocket);
                         if (result > correctPair.Value)
                         {
-                            responseMessage = "Your num is greater than correct.";
+                            responseMessage = "Your number is greater than correct number.";
                             responseMessageInBytes = Encoding.Unicode.GetBytes(responseMessage);
                             await socket.SendAsync(responseMessageInBytes);
                         }
                         else
                         {
-                            responseMessage = "Your num is lower than correct.";
+                            responseMessage = "Your number is lower than correct number.";
                             responseMessageInBytes = Encoding.Unicode.GetBytes(responseMessage);
                             await socket.SendAsync(responseMessageInBytes);
                         }
