@@ -20,14 +20,13 @@ Socket serverSocket = new Socket(
 
 serverSocket.Bind(endPoint);
 serverSocket.Listen(backlog: 5);
+Console.WriteLine("Server opened!\n");
 
 while(true)
 {
     Socket clientSocket = await serverSocket.AcceptAsync();
     correctNums.Add(clientSocket, Random.Shared.Next(0, 101));
-    string message = correctNums.First(predicate: (numPair) => numPair.Key == clientSocket).Value.ToString();
-    var messageInBytes = Encoding.Unicode.GetBytes(message);
-    await clientSocket.SendAsync(messageInBytes);
+    Console.WriteLine($"{clientSocket.RemoteEndPoint} correct number: {correctNums.First(predicate: (numPair) => numPair.Key == clientSocket).Value}");
 
     ThreadPool.QueueUserWorkItem(async (socket) => {
         try
