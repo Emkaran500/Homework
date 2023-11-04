@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="UniformGrid" x:Key="ButtonsGrid">
+        <Setter Property="DockPanel.Dock" Value="Bottom"/>
+        <Setter Property="Columns" Value="2"/>
+        <Setter Property="Rows" Value="2"/>
+        <Setter Property="Height" Value="134.04"/>
+    </Style>
+</ResourceDictionary>

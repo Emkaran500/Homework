@@ -1,0 +1,44 @@
+﻿<Window x:Class="EB_DZ_44.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EB_DZ_44"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <UniformGrid Rows="1">
+        <UniformGrid DockPanel.Dock="Left" Columns="1" Margin="60 80 60 80">
+            <Button Margin="20 30 20 30" Content="Add Silencer" FontSize="14" Click="Silencer_Click"/>
+            <Button Margin="20 30 20 30" Content="Add ForeGrip" FontSize="14" Click="Foregrip_Click"/>
+            <Button Margin="20 30 20 30" Content="Add Optics" FontSize="14" Click="Optics_Click"/>
+        </UniformGrid>
+        <Grid DockPanel.Dock="Right">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <RichTextBox Grid.Row="0" IsEnabled="False">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run Text="{Binding WeaponName}" FontSize="20"/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Damage:" FontSize="20"/>
+                        <Run Text="{Binding WeaponDamageInfo}" FontSize="20"/>
+                    </Paragraph>
+                    <Paragraph>
+                        <Run Text="Accuracy:" FontSize="20"/>
+                        <Run Text="{Binding WeaponAccuracyInfo}" FontSize="20"/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+            <TextBox Grid.Row="1" Text="Damage" FontSize="16" HorizontalContentAlignment="Center" IsEnabled="False"/>
+            <ProgressBar Grid.Row="1" Minimum="0" Maximum="100" Value="{Binding WeaponDamage}" Margin="30"/>
+            <TextBox Grid.Row="1" Opacity="0.3" Text="{Binding WeaponDamageInfo}" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False"/>
+            <TextBox Grid.Row="2" Text="Accuracy" FontSize="16" HorizontalContentAlignment="Center" IsEnabled="False"/>
+            <ProgressBar Grid.Row="2" Minimum="0" Maximum="100" Value="{Binding WeaponAccuracy}" Margin="30"/>
+            <TextBox Grid.Row="2" Opacity="0.3" Text="{Binding WeaponAccuracyInfo}" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False"/>
+        </Grid>
+    </UniformGrid>
+</Window>

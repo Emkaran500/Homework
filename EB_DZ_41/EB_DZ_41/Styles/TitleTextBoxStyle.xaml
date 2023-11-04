@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="TextBox" x:Key="TitleTextBox">
+        <Setter Property="DockPanel.Dock" Value="Top"/>
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Text" Value="WHO WANTS TO BE A MILLIONAIRE?"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="IsEnabled" Value="False"/>
+    </Style>
+</ResourceDictionary>

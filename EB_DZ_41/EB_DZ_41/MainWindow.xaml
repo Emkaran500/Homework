@@ -1,0 +1,54 @@
+﻿<Window x:Class="EB_DZ_41.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EB_DZ_41"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel Background="Blue">
+        <DockPanel.Resources>
+            <ResourceDictionary>
+                <ResourceDictionary.MergedDictionaries>
+                    <ResourceDictionary Source="Styles/ButtonGridStyle.xaml"/>
+                    <ResourceDictionary Source="Styles/TitleTextBoxStyle.xaml"/>
+                    <ResourceDictionary Source="Styles/QuestionRichTextBoxStyle.xaml"/>
+                    <ResourceDictionary Source="Styles/MoneyTextBoxStyle.xaml"/>
+                    <ResourceDictionary Source="Styles/ButtonStyle.xaml"/>
+                </ResourceDictionary.MergedDictionaries>
+            </ResourceDictionary>
+        </DockPanel.Resources>
+
+        <ListBox DockPanel.Dock="Right" Width="200" Background="CadetBlue">
+            <TextBox x:Name="MoneyBox15" Style="{StaticResource MoneyTextBox}" Text="$1 Million"/>
+            <TextBox x:Name="MoneyBox14" Style="{StaticResource MoneyTextBox}" Text="$500,000"/>
+            <TextBox x:Name="MoneyBox13" Style="{StaticResource MoneyTextBox}" Text="$250,000"/>
+            <TextBox x:Name="MoneyBox12" Style="{StaticResource MoneyTextBox}" Text="$125,000"/>
+            <TextBox x:Name="MoneyBox11" Style="{StaticResource MoneyTextBox}" Text="$64,000"/>
+            <TextBox x:Name="MoneyBox10" Style="{StaticResource MoneyTextBox}" Text="$32,000"/>
+            <TextBox x:Name="MoneyBox9" Style="{StaticResource MoneyTextBox}" Text="$16,000"/>
+            <TextBox x:Name="MoneyBox8" Style="{StaticResource MoneyTextBox}" Text="$8,000"/>
+            <TextBox x:Name="MoneyBox7" Style="{StaticResource MoneyTextBox}" Text="$4,000"/>
+            <TextBox x:Name="MoneyBox6" Style="{StaticResource MoneyTextBox}" Text="$2,000"/>
+            <TextBox x:Name="MoneyBox5" Style="{StaticResource MoneyTextBox}" Text="$1,000"/>
+            <TextBox x:Name="MoneyBox4" Style="{StaticResource MoneyTextBox}" Text="$500"/>
+            <TextBox x:Name="MoneyBox3" Style="{StaticResource MoneyTextBox}" Text="$300"/>
+            <TextBox x:Name="MoneyBox2" Style="{StaticResource MoneyTextBox}" Text="$200"/>
+            <TextBox x:Name="MoneyBox1" Style="{StaticResource MoneyTextBox}" Text="$100"/>
+        </ListBox>
+        <UniformGrid Style="{StaticResource ButtonsGrid}">
+            <Button x:Name="FirstAnswerButton" Content="{Binding Answer1}" Click="AnswerButton_Click"/>
+            <Button x:Name="SecondAnswerButton" Content="{Binding Answer2}" Click="AnswerButton_Click"/>
+            <Button x:Name="ThirdAnswerButton" Content="{Binding Answer3}" Click="AnswerButton_Click"/>
+            <Button x:Name="FourthAnswerButton" Content="{Binding Answer4}" Click="AnswerButton_Click"/>
+        </UniformGrid>
+        <TextBox Style="{StaticResource TitleTextBox}"/>
+        <RichTextBox x:Name="QuestionTextBox" Style="{StaticResource QuestionRichTextBox}">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="{Binding QuestionText}"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+    </DockPanel>
+</Window>
