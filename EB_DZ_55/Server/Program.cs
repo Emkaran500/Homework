@@ -47,7 +47,6 @@ while(true)
                         responseMessageInBytes = Encoding.Unicode.GetBytes(responseMessage);
                         correctNums.Remove(clientSocket);
                         await socket.SendAsync(responseMessageInBytes);
-                        await clientSocket.DisconnectAsync(false);
                     }
                     else
                     {
