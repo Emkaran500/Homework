@@ -12,6 +12,11 @@
     src: url('fonts/Gilroy-Medium.ttf')  format('truetype')
 }
 
+body
+{
+    margin: 0px;
+}
+
 .div-body
 {
     background-color: #686DE0;
