@@ -1,0 +1,49 @@
+.container p.red
+{
+    background-color: dodgerblue;
+}
+
+#main-header h2.all-tags.first-tag
+{
+    background-color: darkred;
+}
+
+.main div.wrapper
+{
+    background-color: lawngreen;
+}
+
+.menu a
+{
+    background-color: indigo;
+}
+
+.highlight.wrapper span
+{
+    background-color: beige;
+}
+
+.header input.search
+{
+    background-color: red;
+}
+
+.content h3.important
+{
+    background-color: cyan;
+}
+
+#sidebar ul.fist-tag
+{
+    background-color: gold;
+}
+
+.description#main-desc p.info
+{
+    background-color: peru;
+}
+
+.wrapper#container-wrapper div.box
+{
+    background-color: yellow;
+}
