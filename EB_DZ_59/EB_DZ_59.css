@@ -1,0 +1,146 @@
+@font-face 
+{
+    font-family: 'Gilroy-Bold';
+    font-weight: 700px;
+    src: url('fonts/Gilroy-Bold.ttf')  format('truetype')
+}
+
+@font-face 
+{
+    font-family: 'Gilroy-Medium';
+    font-weight: 500px;
+    src: url('fonts/Gilroy-Medium.ttf')  format('truetype')
+}
+
+.div-body
+{
+    background-color: #686DE0;
+    padding: 57px 0px 45px;
+    font-size: 0px;
+}
+
+.div-group
+{
+    width: 1660px;
+    margin: 0px auto;
+}
+
+.div-row
+{
+    color: #FFFFFF;
+    margin-bottom: 101px;
+}
+
+.div-row:last-child
+{
+    margin-bottom: 0px;
+}
+
+.div-news-withimg
+{
+    border-radius: 25px;
+    max-width: 930px;
+    max-height: 308px;
+    display: inline-block;
+    margin-right: 50px;
+    background-color: #2C2C54;
+}
+
+.div-news-withimg:last-child
+{
+    margin-right: 0px;
+}
+
+.div-img
+{
+    display: inline-block;
+    width: 365px;
+    height: 308px;
+}
+
+.img
+{
+    border-radius: 25px;
+}
+
+.div-text-group
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 31px 35px 32px 30px;
+    width: 500px;
+    height: 245px;
+}
+
+.div-header-left
+{
+    display: inline-block;
+    margin-bottom: 15px;
+    font-family: 'Gilroy-Bold';
+    font-size: 25px;
+    line-height: 32.5px;
+}
+
+.div-header-right
+{
+    display: inline-block;
+    margin-bottom: 25px;
+    font-family: 'Gilroy-Bold';
+    font-size: 25px;
+    line-height: 32.5px;
+}
+
+.h3-header
+{
+    margin: 0px;
+}
+
+.div-description-left
+{
+    display: inline-block;
+    max-width: 591px;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 104.1px;
+}
+
+.div-description-right
+{
+    display: inline-block;
+    max-width: 591px;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 60px;
+}
+
+.div-address
+{
+    display: inline-block;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #686DE0;
+}
+
+.div-news-withoutimg
+{
+    border-radius: 25px;
+    max-width: 680px;
+    max-height: 308px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    background-color: #2C2C54;
+}
+
+.div-text-align
+{
+    padding: 47px 45px 47.52px 43.59px;
+}
+
+.div-news-withoutimg:last-child
+{
+    margin-right: 0px;
+}
