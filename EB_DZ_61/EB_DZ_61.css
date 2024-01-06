@@ -1,0 +1,144 @@
+@font-face 
+{
+    font-family: 'Jost-Regular';
+    font-weight: 400px;
+    src: url('fonts/Jost-Regular.ttf')  format('truetype')
+}
+
+@font-face 
+{
+    font-family: 'Jost-SemiBold';
+    font-weight: 600px;
+    src: url('fonts/Jost-SemiBold.ttf')  format('truetype')
+}
+
+* 
+{
+    box-sizing: border-box;
+}
+
+.div-root
+{
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.h3-header, .h4-header
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-content
+{
+    width: 1160px;
+    margin: 0px auto;
+    font-family: 'Jost-SemiBold', sans-serif;
+}
+
+.div-header
+{
+    display: flex;
+    align-self: center;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 80px;
+}
+
+.div-header .h3-header
+{
+    margin-bottom: 60px;
+}
+
+.div-blocks
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-block
+{
+    text-align: center;
+    justify-content: center;
+    width: 360px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #14102433;
+}
+
+.div-block.div-blockblack
+{
+    background-color: #141024;
+    color: #FFFFFF;
+    height: 500px;
+}
+
+.h4-header
+{
+    font-size: 30px;
+    line-height: 48px;
+    margin-bottom: 63px;
+}
+
+.div-money
+{
+    display: flex;
+    align-self: center;
+    font-weight: 600px;
+    font-size: 50px;
+    line-height: 48px;
+    padding: 16px 0px;
+    margin-bottom: 20px;
+}
+
+.div-description
+{
+    display: flex;
+    text-align: center;
+    align-self: center;
+    font-family: 'Jost-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    margin-bottom: 61px;
+    padding: 0px 15px;
+}
+
+.div-button
+{
+    display: flex;
+    font-family: 'Jost-Regular', sans-serif;
+    width: 100%;
+}
+
+.button-apply
+{
+    background-color: #D52027;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    margin: 0px auto;
+    width: 280px;
+    height: 79px;
+    padding: 0px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #14102433;
+}
+
+.div-block.div-blockblack .div-header .h4-header
+{
+    margin-bottom: 83px;
+}
+
+.div-block.div-blockblack .div-description
+{
+    margin-bottom: 52px;
+}
