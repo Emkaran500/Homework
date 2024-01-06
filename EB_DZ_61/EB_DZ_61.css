@@ -72,7 +72,7 @@
     border-color: #14102433;
 }
 
-.div-block.div-blockblack
+.div-block:first-child
 {
     background-color: #141024;
     color: #FFFFFF;
@@ -133,12 +133,12 @@
     border-color: #14102433;
 }
 
-.div-block.div-blockblack .div-header .h4-header
+.div-block:first-child .div-header .h4-header
 {
     margin-bottom: 83px;
 }
 
-.div-block.div-blockblack .div-description
+.div-block:first-child .div-description
 {
     margin-bottom: 52px;
 }
