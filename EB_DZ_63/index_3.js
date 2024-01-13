@@ -9,16 +9,12 @@ const purchasedProductsIds = [1, 3, 4];
 function sumOfPurchased(products, purchasedProductsIds)
 {
     var purchasedSum = 0;
-    for (let product of products)
+
+    for (let id of purchasedProductsIds)
     {
-        for (let id of purchasedProductsIds)
-        {
-            if (product.id == id)
-            {
-                purchasedSum += product.price;
-            }
-        }
+        purchasedSum += products.find((product) => product.id == id).price;
     }
+    
     console.log('purchasedSum', purchasedSum);
 }
 sumOfPurchased(products2, purchasedProductsIds);
