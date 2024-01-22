@@ -1,0 +1,13 @@
+.ul-products
+{
+    background-color: red;
+}
+
+.ul-product
+{
+    background-color: yellow;
+    width: fit-content;
+    padding: 0px;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
