@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta name="author" content="Babayev Emil">
+        <link rel="stylesheet" href="EB_DZ_67.css">
+    </head>
+    <body>
+        <div class="div-body">
+            <div class="div-margin">
+                <form name="registration" action="url.com" class="registration-form">
+                    <input class="input-text" type="text" name="firstName" placeholder="Имя">
+                    <input class="input-text" type="text" name="lastName" placeholder="Фамилия">
+                    <input class="input-text" type="text" name="email" placeholder="Эл.Почта">
+                    <div>Пол:
+                        <div>Мужской<input class="input-radio" type="radio" name="gender"></div>
+                        <div>Женский<input class="input-radio" type="radio" name="gender"></div>
+                        <div class="div-army">Служили в армии?
+                            <input type="checkbox" name="army" class="army">
+                            <select name="armyType" class="input-select">
+                                <option value="ground">Сухопутные</option>
+                                <option value="navy">Морские</option>
+                                <option value="airforce">Воздушные</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input class="input-text" type="text" name="age" placeholder="Возраст">
+                    <div class="div-cigarettes">Курите ли вы сигареты?
+                        <input type="checkbox" name="cigarettes">
+                        <input class="input-text input-cigarettes" type="text" name="cigarettesName" placeholder="Название сигарет">
+                    </div>
+                    
+                    <button class="sender-button" name="sendBtn">Отправить</button>
+                    <script src="EB_DZ_67.js"></script>
+                </form>
+            </div>
+        </div>
+        
+    </body>
+</html>

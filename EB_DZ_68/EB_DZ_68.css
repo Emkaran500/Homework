@@ -1,0 +1,48 @@
+.registration-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.div-margin
+{
+    width: 1110px;
+    margin: 0px auto;
+}
+
+.input-text
+{
+    width: 150px;
+}
+
+.input-cigarettes
+{
+    display: none;
+}
+
+.sender-button
+{
+    width: 100px;
+}
+
+.div-army
+{
+    display: none;
+}
+
+.input-select
+{
+    display: none;
+}
+
+.div-cigarettes
+{
+    display: none;
+}
+
+.error
+{
+    border-color: red;
+}
