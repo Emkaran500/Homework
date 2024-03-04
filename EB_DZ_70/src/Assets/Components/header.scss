@@ -1,0 +1,34 @@
+.div-header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 0px;
+}
+
+.topmenu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.topmenu-item
+{
+    font-size: 18px;
+    line-height: 21.11px;
+    &:last-child
+    {
+        font-family: 'Work Sans SemiBold';
+        font-weight: 600px;
+        color: #F9995D;
+    }
+}
+
+.a-topmenu-item
+{
+    text-decoration: none;
+    font: inherit;
+    color: inherit;
+}

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Work Sans Regular';
+    font-weight: 400;
+    src: url('./Assets/Fonts/WorkSans-Regular.ttf')  format('truetype')
+}
+
+@font-face {
+    font-family: 'Work Sans Regular Italic';
+    font-weight: 400;
+    font-style: italic;
+    src: url('./Assets/Fonts/WorkSans-Italic.ttf')  format('truetype')
+}
+
+@font-face {
+    font-family: 'Work Sans Medium';
+    font-weight: 500;
+    src: url('./Assets/Fonts/WorkSans-Medium.ttf')  format('truetype')
+}
+
+@font-face {
+    font-family: 'Work Sans Medium Italic';
+    font-weight: 500;
+    font-style: italic;
+    src: url('./Assets/Fonts/WorkSans-MediumItalic.ttf')  format('truetype')
+}
+
+@font-face {
+    font-family: 'Work Sans SemiBold';
+    font-weight: 600;
+    src: url('./Assets/Fonts/WorkSans-SemiBold.ttf')  format('truetype')
+}
+
+@font-face {
+    font-family: 'Work Sans SemiBold Italic';
+    font-weight: 600;
+    font-style: italic;
+    src: url('./Assets/Fonts/WorkSans-SemiBoldItalic.ttf')  format('truetype')
+}
+
+@font-face {
+    font-family: 'Work Sans Bold';
+    font-weight: 700;
+    src: url('./Assets/Fonts/WorkSans-Bold.ttf')  format('truetype')
+}
+
+@font-face {
+    font-family: 'Work Sans Bold Italic';
+    font-weight: 700;
+    font-style: italic;
+    src: url('./Assets/Fonts/WorkSans-BoldItalic.ttf')  format('truetype')
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+    font-family: 'Work Sans Normal', sans-serif;
+    font-weight: 400;
+    color: #14171F;
+    background-color: #FFFFFF;
+}

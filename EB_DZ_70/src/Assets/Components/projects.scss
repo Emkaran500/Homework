@@ -1,0 +1,152 @@
+.projects-wrapper
+{
+    padding: 88px 0px 138px;
+}
+
+.projects-title
+{
+    font-family: 'Work Sans Bold', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.23px;
+    color: #292E3D;
+    margin-bottom: 40px;
+}
+
+.projects-body
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.projects-menu
+{
+    list-style-type: none;
+}
+
+.project-menu-button
+{
+    font-family: 'Work Sans Medium', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.15px;
+    color: #C2C7D6;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 0px;
+    padding-left: 20px;
+
+    &:hover
+    {
+        font-family: 'Work Sans Bold', sans-serif;
+        font-weight: 700;
+        color: #2947A9;
+        background-image: url('../Imgs/vert_line.jpg');
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+}
+
+.projects-list-wrapper
+{
+    width: 800px;
+}
+
+.projects-list
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.project-item
+{
+    background-color: #2947A9;
+}
+
+.item-description
+{
+    color: #FFFFFF;
+    padding: 12px;
+    background-color: transparent;
+}
+
+.item-name
+{
+    font-family: 'Work Sans Bold', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.46px;
+    color: inherit;
+    background-color: transparent;
+    margin-bottom: 12px;
+}
+
+.item-address
+{
+    font-family: 'Work Sans Regular', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.11px;
+    color: inherit;
+    background-color: transparent;
+}
+
+.list-switch
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.switch-button
+{
+    font-family: 'Work Sans Regular', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.11px;
+    color: #FFFFFF;
+    width: 295px;
+    background-color: #292E3D;
+    border: 0px;
+    padding: 21.5px;
+
+    &:first-child
+    {
+        .button-text
+        {
+            padding-left: 36px;
+            background-image: url('../Imgs/left_arrow.png');
+            background-position: left;
+            background-repeat: no-repeat;
+        }
+    }
+    &:last-child
+    {
+        .button-text
+        {
+            padding-right: 36px;
+            background-image: url('../Imgs/right_arrow.png');
+            background-position: right;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+.button-text
+{
+    background-color: inherit;
+    color: inherit;
+}
+
+.current-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    height: min-content;
+}

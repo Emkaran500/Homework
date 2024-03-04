@@ -1,0 +1,21 @@
+.a-logo
+{
+    font-family: 'Work Sans Bold', sans-serif;
+    font-size: 30px;
+    line-height: 35.19px;
+    padding-left: 52px;
+    padding-top: 6px;
+    padding-bottom: 6.5px;
+    background-image: url('../Imgs/Logo.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #2947A9;
+    .italic-logo
+    {
+        font: inherit;
+        font-family: 'Work Sans Bold Italic', sans-serif;
+        color: inherit;
+    }
+}
+

@@ -1,0 +1,50 @@
+.advantages-wrapper
+{
+    width: 1020px;
+    margin: 0px auto;
+    padding: 60px 0px 84px;
+}
+
+.advantages-header
+{
+    font-family: 'Work Sans Bold', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.23px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.advantage-list
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage-item
+{
+    padding: 20px 18px 20px 20px;
+    width: 252px;
+    border: 1.4px solid #E0E3EB
+}
+
+.advantage-img
+{
+    margin-bottom: 18px;
+}
+
+.advantage-title
+{
+    font-family: 'Work Sans Bold', sans-serif;
+    font-weight: 700px;
+    margin-bottom: 18px;
+    color: #3D445C;
+}
+
+.advantage-description
+{
+    font-family: 'Work Sans Regular';
+    font-weight: 400px;
+    margin-bottom: 20px;
+    color: #858EAD;
+}

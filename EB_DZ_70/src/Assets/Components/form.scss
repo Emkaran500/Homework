@@ -1,0 +1,91 @@
+.form-wrapper
+{
+    background-color: #F6F8F7;
+}
+
+.form-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 592px;
+    margin: 0px auto;
+    background-color: #F6F8F7;
+    padding: 60px 0px;
+}
+
+.div-form-header
+{
+    font-family: 'Work Sans Bold', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.23px;
+    color: #292E3D;
+    background-color: inherit;
+    margin-bottom: 20px;
+}
+
+.div-form-description
+{
+    font-family: 'Work Sans Regular', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.46px;
+    text-align: center;
+    color: #292E3D;
+    background-color: inherit;
+    margin-bottom: 38px;
+}
+
+.div-form-inputs
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: inherit;
+    margin-bottom: 20px;
+}
+
+.form-input
+{
+    width: 260px;
+    padding: 10px 8px 10px 8px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 21.11px;
+    border: 1px solid #E0E3EB;
+}
+
+.div-notification
+{
+    font-family: 'Work Sans Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.77px;
+    align-self: flex-start;
+    margin-top: 8px;
+    background-color: inherit;
+    margin-bottom: 28px;
+}
+
+.span-star
+{
+    background-color: inherit;
+    color: red;
+}
+
+.submit-button
+{
+    font-family: 'Work Sans SemiBold', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.11px;
+    padding: 16px 20px 16px 20px;
+    width: 271px;
+    border-radius: 2px;
+    background-color: #2947A9;
+    color: #FFFFFF;
+    border: 0px;
+}

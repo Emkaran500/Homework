@@ -1,0 +1,11 @@
+.div-wrapper
+{
+    width: 1216px;
+    margin: 0px auto;
+    background-color: transparent;
+}
+
+.div-wrapper:has(> div.services-wrapper)
+{
+    background-color: #F6F8F7;
+}
