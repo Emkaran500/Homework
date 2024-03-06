@@ -4,6 +4,7 @@ import { Input } from "./Input/Input";
 import { Wrapper } from "../Wrapper/Wrapper";
 import '../../Assets/Components/form.scss';
 import { SubmitButton } from "./SubmitButton/SubmitButton";
+import { MessageBox } from "./MessageBox/MessageBox";
 
 export const Form = () =>
 {
@@ -19,7 +20,7 @@ export const Form = () =>
                     <DataList/>
                     <Input type={'text'} placeholder={'Phone'}/>
                 </div>
-                <Input style={{width: '574px', height: '113px'}} type={'text'} placeholder={'Message'}/>
+                <MessageBox style={{width: '574px', height: '113px', resize: 'none'}} type={'text'} placeholder={'Message'}/>
                 <div className="div-notification"><span className="span-star">*</span> indicates a required field</div>
                 <SubmitButton/>
             </form>}

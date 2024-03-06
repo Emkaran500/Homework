@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Input = ({ style, type, placeholder }) =>
+export const Input = ({ type, placeholder }) =>
 {
     return (
-        <input style={style} className="form-input" type={type} placeholder={placeholder}></input>
+        <input className="form-input" type={type} placeholder={placeholder}></input>
     )
 }

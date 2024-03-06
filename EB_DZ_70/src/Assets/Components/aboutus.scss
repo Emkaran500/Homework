@@ -1,6 +1,7 @@
 .aboutus-wrapper
 {
     padding: 74px 0px 202px;
+    position: relative;
 }
 
 .aboutus-img
@@ -19,8 +20,9 @@
     width: 398px;
     padding: 50px 60px 60px 40px;
     position: absolute;
-    top: 137%;
-    left: 56.3%;
+    top: 15%;
+    left: 59.7%;
+    border-radius: 2px;
     box-shadow: 0px 8px 8px -4px #1118270A;
     box-shadow: 0px 20px 24px -4px #1118271A;
 }
